@@ -1,0 +1,23 @@
+{
+  "name": "movies-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "default": "^0.1.1"
+  },
+  "eslintConfig": {
+    "extends": "default"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.21.1",
+    "zod": "3.23.8"
+  }
+}
